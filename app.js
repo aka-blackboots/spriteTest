@@ -34,23 +34,6 @@ async function loadIfc(url) {
     subset.add(obj)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 loadIfc('../../../IFC/01.ifc');
 
 window.onmousemove = () => viewer.IFC.selector.prePickIfcItem(true);
